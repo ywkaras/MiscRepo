@@ -1,0 +1,22 @@
+D=50000000
+echo $D
+gcc -O2 -std=c++11 -DDIMENSION=$D x.cpp -lstdc++ -lpthread -o without
+gcc -O2 -std=c++11 -DMUTEX -DDIMENSION=$D x.cpp -lstdc++ -lpthread -o with
+date +"%s.%N"
+./without
+date +"%s.%N"
+./with
+date +"%s.%N"
+echo
+
+D=100000000
+echo $D
+gcc -O2 -std=c++11 -DDIMENSION=$D x.cpp -lstdc++ -lpthread -o without
+gcc -O2 -std=c++11 -DMUTEX -DDIMENSION=$D x.cpp -lstdc++ -lpthread -o with
+date +"%s.%N"
+./without
+date +"%s.%N"
+./with
+date +"%s.%N"
+
+rm -f with without
