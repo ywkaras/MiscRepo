@@ -1,0 +1,1 @@
+gcc -O3 -Wall -Wextra -pedantic -std=c++17 x.cc -lstdc++

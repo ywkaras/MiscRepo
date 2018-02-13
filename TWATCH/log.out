@@ -1,0 +1,545 @@
+(gdb) Signal        Stop	Print	Pass to program	Description
+SIGPIPE       No	No	Yes		Broken pipe
+(gdb) Breakpoint 1 at 0x4012da: file x.cc, line 48.
+(gdb) >>>>(gdb) Continuing.
+[Switching to Thread 0x7fb04f68f700 (LWP 15423)]
+
+Breakpoint 1, t_mon_func () at x.cc:48
+48	      break_on();
+
+Thread 52 (Thread 0x7fb0686c1700 (LWP 15373)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 51 (Thread 0x7fb067ec0700 (LWP 15374)):
+#0  0x0000000000401310 in operator++ (this=0x7fb067ebff14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 540985}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 50 (Thread 0x7fb0676bf700 (LWP 15375)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0676bef14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 6255}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 49 (Thread 0x7fb066ebe700 (LWP 15376)):
+#0  0x0000000000401310 in operator++ (this=0x7fb066ebdf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 307603}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 48 (Thread 0x7fb0666bd700 (LWP 15377)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0666bcf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 67393}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 47 (Thread 0x7fb065ebc700 (LWP 15378)):
+#0  0x0000000000401310 in operator++ (this=0x7fb065ebbf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 541243}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 46 (Thread 0x7fb0656bb700 (LWP 15379)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0656baf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 294976}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 45 (Thread 0x7fb064eba700 (LWP 15380)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 44 (Thread 0x7fb0646b9700 (LWP 15381)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0646b8f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 440883}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 43 (Thread 0x7fb063eb8700 (LWP 15382)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 42 (Thread 0x7fb0636b7700 (LWP 15383)):
+#0  0x0000000000401306 in tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#1  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#2  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 41 (Thread 0x7fb062eb6700 (LWP 15384)):
+#0  0x0000000000401310 in operator++ (this=0x7fb062eb5f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 68862}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 40 (Thread 0x7fb0626b5700 (LWP 15385)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0626b4f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 2592}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 39 (Thread 0x7fb061eb4700 (LWP 15386)):
+#0  0x0000000000401310 in operator++ (this=0x7fb061eb3f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 434751}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 38 (Thread 0x7fb0616b3700 (LWP 15387)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0616b2f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 474556}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 37 (Thread 0x7fb060eb2700 (LWP 15388)):
+#0  0x0000000000401310 in operator++ (this=0x7fb060eb1f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 236671}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 36 (Thread 0x7fb0606b1700 (LWP 15389)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 35 (Thread 0x7fb05feb0700 (LWP 15390)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05feaff14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 315918}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 34 (Thread 0x7fb05f6af700 (LWP 15391)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 33 (Thread 0x7fb05eeae700 (LWP 15392)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05eeadf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 500286}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 32 (Thread 0x7fb05e6ad700 (LWP 15393)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 1089055}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 31 (Thread 0x7fb05deac700 (LWP 15394)):
+#0  operator++ (this=0x7fb05deabf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 30 (Thread 0x7fb05d6ab700 (LWP 15395)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05d6aaf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 486748}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 29 (Thread 0x7fb05ceaa700 (LWP 15396)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05cea9f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 550068}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 28 (Thread 0x7fb05c6a9700 (LWP 15397)):
+#0  0x0000000000401306 in tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#1  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#2  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 27 (Thread 0x7fb05bea8700 (LWP 15398)):
+#0  0x0000000000401306 in tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#1  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#2  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 26 (Thread 0x7fb05b6a7700 (LWP 15399)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05b6a6f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 568291}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 25 (Thread 0x7fb05aea6700 (LWP 15400)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05aea5f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 107859}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 24 (Thread 0x7fb05a6a5700 (LWP 15401)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05a6a4f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 554126}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 23 (Thread 0x7fb059ea4700 (LWP 15402)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 0}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 22 (Thread 0x7fb0596a3700 (LWP 15403)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0596a2f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 558171}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 21 (Thread 0x7fb058ea2700 (LWP 15404)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 5617}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 20 (Thread 0x7fb0586a1700 (LWP 15405)):
+#0  0x0000000000401310 in operator++ (this=0x7fb0586a0f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 320221}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 19 (Thread 0x7fb057ea0700 (LWP 15406)):
+#0  0x0000000000401310 in operator++ (this=0x7fb057e9ff14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 557561}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 18 (Thread 0x7fb05769f700 (LWP 15407)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05769ef14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 121803}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 17 (Thread 0x7fb056e9e700 (LWP 15408)):
+#0  0x0000000000401310 in operator++ (this=0x7fb056e9df14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 484996}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 16 (Thread 0x7fb05669d700 (LWP 15409)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05669cf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 550411}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 15 (Thread 0x7fb055e9c700 (LWP 15410)):
+#0  0x0000000000401310 in operator++ (this=0x7fb055e9bf14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 563596}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 14 (Thread 0x7fb05569b700 (LWP 15411)):
+#0  0x0000000000401310 in operator++ (this=0x7fb05569af14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 321515}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 13 (Thread 0x7fb054e9a700 (LWP 15412)):
+#0  0x0000000000401310 in operator++ (this=0x7fb054e99f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 443082}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 12 (Thread 0x7fb054699700 (LWP 15413)):
+#0  0x0000000000401310 in operator++ (this=0x7fb054698f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 242622}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 11 (Thread 0x7fb053e98700 (LWP 15414)):
+#0  0x0000000000401310 in operator++ (this=0x7fb053e97f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 12250}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 10 (Thread 0x7fb053697700 (LWP 15415)):
+#0  0x0000000000401310 in operator++ (this=0x7fb053696f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 13977}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 9 (Thread 0x7fb052e96700 (LWP 15416)):
+#0  0x0000000000401310 in operator++ (this=0x7fb052e95f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 65601}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 8 (Thread 0x7fb052695700 (LWP 15417)):
+#0  0x0000000000401310 in operator++ (this=0x7fb052694f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 263961}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 7 (Thread 0x7fb051e94700 (LWP 15418)):
+#0  0x0000000000401310 in operator++ (this=0x7fb051e93f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 243805}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 6 (Thread 0x7fb051693700 (LWP 15419)):
+#0  load (__m=std::memory_order_seq_cst, this=0x6023f0 <f>) at x.cc:26
+No locals.
+#1  operator std::__atomic_base<int>::__int_type (this=0x6023f0 <f>) at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/atomic_base.h:259
+No locals.
+#2  tfunc () at x.cc:26
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 124872}, static is_always_lock_free = true}
+#3  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#4  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 5 (Thread 0x7fb050e92700 (LWP 15420)):
+#0  0x0000000000401310 in operator++ (this=0x7fb050e91f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 246916}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 4 (Thread 0x7fb050691700 (LWP 15421)):
+#0  0x0000000000401310 in operator++ (this=0x7fb050690f14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 566599}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 3 (Thread 0x7fb04fe90700 (LWP 15422)):
+#0  0x0000000000401310 in operator++ (this=0x7fb04fe8ff14) at x.cc:27
+No locals.
+#1  tfunc () at x.cc:27
+        i = {<std::__atomic_base<unsigned int>> = {static _S_alignment = 4, _M_i = 86383}, static is_always_lock_free = true}
+#2  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 2 (Thread 0x7fb04f68f700 (LWP 15423)):
+#0  t_mon_func () at x.cc:48
+No locals.
+#1  0x00007fb068faedd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#2  0x00007fb068ac1ead in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 1 (Thread 0x7fb0696dc740 (LWP 15363)):
+#0  main () at x.cc:120
+        pt_attr = {__size = '\000' <repeats 17 times>, "\020", '\000' <repeats 37 times>, __align = 0}
+        sparam = {__sched_priority = 99}
+        policy = 1
+        fs = <incomplete type>
+        fd = <optimized out>
+#1  0x00007fb0689e63d5 in __libc_start_main () from /lib64/libc.so.6
+No symbol table info available.
+#2  0x000000000040121f in _start () at x.cc:125
+No symbol table info available.
+A debugging session is active.
+
+	Inferior 1 [process 15363] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
