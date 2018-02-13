@@ -1,0 +1,1 @@
+gcc -g -Wall -Wextra -pedantic -std=c++17 dbg_cvt.cc -lstdc++ -o dbg_cvt

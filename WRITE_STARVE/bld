@@ -1,0 +1,1 @@
+cc -Wall -Wextra -pedantic -std=c++17 x.cc -lstdc++ -lpthread
