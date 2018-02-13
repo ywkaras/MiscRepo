@@ -1,0 +1,524 @@
+(gdb) Signal        Stop	Print	Pass to program	Description
+SIGPIPE       No	No	Yes		Broken pipe
+(gdb) Hardware watchpoint 1: f
+(gdb) >>>>(gdb) Continuing.
+Hardware watchpoint 1: f
+
+Old value = false
+New value = true
+main () at x.cc:34
+34	  while (true) {
+
+Thread 51 (Thread 0x7f4fe9033700 (LWP 2857)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 50 (Thread 0x7f4fe8832700 (LWP 2858)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 49 (Thread 0x7f4fe8031700 (LWP 2859)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 48 (Thread 0x7f4fe7830700 (LWP 2860)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 47 (Thread 0x7f4fe702f700 (LWP 2861)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 46 (Thread 0x7f4fe682e700 (LWP 2862)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 45 (Thread 0x7f4fe602d700 (LWP 2863)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 44 (Thread 0x7f4fe582c700 (LWP 2864)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 43 (Thread 0x7f4fe502b700 (LWP 2865)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 42 (Thread 0x7f4fe482a700 (LWP 2866)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 41 (Thread 0x7f4fe4029700 (LWP 2867)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 40 (Thread 0x7f4fe3828700 (LWP 2868)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 39 (Thread 0x7f4fe3027700 (LWP 2869)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 38 (Thread 0x7f4fe2826700 (LWP 2870)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 37 (Thread 0x7f4fe2025700 (LWP 2871)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 36 (Thread 0x7f4fe1824700 (LWP 2872)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 35 (Thread 0x7f4fe1023700 (LWP 2873)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 34 (Thread 0x7f4fe0822700 (LWP 2874)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 33 (Thread 0x7f4fe0021700 (LWP 2875)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 32 (Thread 0x7f4fdf820700 (LWP 2876)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 31 (Thread 0x7f4fdf01f700 (LWP 2877)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 30 (Thread 0x7f4fde81e700 (LWP 2878)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 29 (Thread 0x7f4fde01d700 (LWP 2879)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 28 (Thread 0x7f4fdd81c700 (LWP 2880)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 27 (Thread 0x7f4fdd01b700 (LWP 2881)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 26 (Thread 0x7f4fdc81a700 (LWP 2882)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 25 (Thread 0x7f4fdc019700 (LWP 2883)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 24 (Thread 0x7f4fdb818700 (LWP 2884)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 23 (Thread 0x7f4fdb017700 (LWP 2885)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 22 (Thread 0x7f4fda816700 (LWP 2886)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 21 (Thread 0x7f4fda015700 (LWP 2887)):
+#0  tfunc () at x.cc:9
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 20 (Thread 0x7f4fd9814700 (LWP 2888)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 19 (Thread 0x7f4fd9013700 (LWP 2889)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 18 (Thread 0x7f4fd8812700 (LWP 2890)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 17 (Thread 0x7f4fd8011700 (LWP 2891)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 16 (Thread 0x7f4fd7810700 (LWP 2892)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 15 (Thread 0x7f4fd700f700 (LWP 2893)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 14 (Thread 0x7f4fd680e700 (LWP 2894)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 13 (Thread 0x7f4fd600d700 (LWP 2895)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 12 (Thread 0x7f4fd580c700 (LWP 2896)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 11 (Thread 0x7f4fd500b700 (LWP 2897)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 10 (Thread 0x7f4fd480a700 (LWP 2898)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 9 (Thread 0x7f4fd4009700 (LWP 2899)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 8 (Thread 0x7f4fd3808700 (LWP 2900)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 7 (Thread 0x7f4fd3007700 (LWP 2901)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 6 (Thread 0x7f4fd2806700 (LWP 2902)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 5 (Thread 0x7f4fd2005700 (LWP 2903)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 4 (Thread 0x7f4fd1804700 (LWP 2904)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 3 (Thread 0x7f4fd1003700 (LWP 2905)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 2 (Thread 0x7f4fd0802700 (LWP 2906)):
+#0  tfunc () at x.cc:10
+No locals.
+#1  0x0000000000400e3f in execute_native_thread_routine ()
+No symbol table info available.
+#2  0x00007f4fe9920dd5 in start_thread () from /lib64/libpthread.so.0
+No symbol table info available.
+#3  0x00007f4fe9434b3d in clone () from /lib64/libc.so.6
+No symbol table info available.
+
+Thread 1 (Thread 0x7f4fea04b740 (LWP 2847)):
+#0  main () at x.cc:34
+        fs = <incomplete type>
+#1  0x00007f4fe93583d5 in __libc_start_main () from /lib64/libc.so.6
+No symbol table info available.
+#2  0x0000000000400cc6 in _start () at /opt/rh/devtoolset-8/root/usr/include/c++/8/bits/ios_base.h:170
+No symbol table info available.
+A debugging session is active.
+
+	Inferior 1 [process 2847] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+Quitting: Can't detach Thread 0x7f4fe8832700 (LWP 2858): No such process
